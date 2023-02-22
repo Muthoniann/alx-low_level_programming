@@ -1,23 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
 * main - Entry point
-* Description: Prints the alphabet in lowercase, except for q and e.
-* Return: Always 0
+*
+* Description: 'takes no arguement and returns a string'
+*
+* Return: Always integer or astring (Success)
 */
 int main(void)
 {
-char letter;
-
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-if (letter != 'e' && letter != 'q')
-putchar(letter);
-}
-
+char alphabet;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+putchar(alphabet);
+for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+putchar(alphabet);
 putchar('\n');
-
 return (0);
 }
