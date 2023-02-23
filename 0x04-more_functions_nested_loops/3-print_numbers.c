@@ -3,16 +3,16 @@
 /**
  * print_numbers - entry point
  * Description: Prints the numbers with _putchar
- ** Return: void
+ * Return: void
  */
 
 void print_numbers(void)
 {
-int number;
+int i;
 
-for (number = '0'; number <= '9'; number++)
+for (i = '0'; i <= '10'; i++)
 {
-_putchar(number);
+_putchar(i + '0');
 }
 _putchar('\n');
 }
