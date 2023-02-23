@@ -1,7 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
-int multiply(int num1, int num2)
+/**
+ * mul - input
+ * Description: multiplies 2 numbers
+ * @a: first number
+ * @b: second number
+ * Return: the answer
+ */
+
+int mul(int a, int b)
 {
-int result = num1 * num2;
-return (result);
+return (a * b);
 }
